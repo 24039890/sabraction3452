@@ -12,15 +12,15 @@ import java .util.Scanner;
 public class Sub567 {
 
     public static void main(String[] args) {
-    Scanner entrance = new Scanner(System.in);
-System.out.print("first number entry : ");
-int num1 = entrance.nextInt();
+    Scanner subract = new Scanner(System.in);
+System.out.print("enter first number : ");
+int num1 = subract.nextInt();
 
-System.out.print("second number entry : ");
-int num2 = entrance.nextInt();
+System.out.print("second number number : ");
+int num2 = subract.nextInt();
 int subraction = num1 - num2 ;
-        String Sub;
         
-    System.out.println("the difference between the two numbers is = " + "sub");
+        
+    System.out.println("the subraction of the number is :" + (num2 - num1) );
 }
 }
